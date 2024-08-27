@@ -201,7 +201,7 @@
         </section>
 
         <!-- discuss-section -->
-        <section style="background-image: url('assets/bg.jpg');" class="max-w-[1440px] mx-auto px-5 py-3 bg-cover bg-no-repeat bg-center lg:pb-[80px]">
+        <section style="background-image: url('assets/bg.jpg');" class="max-w-[1440px] mx-auto px-5 py-3 bg-cover bg-no-repeat bg-center lg:pb-[80px] border-y-4 border-white">
             <div class="max-w-[970px] mx-auto py-6 lg:pt-[80px]">
                 <div class="text-center flex flex-col items-center md:w-[680px] md:mx-auto">
                     <button class="bg-[#ABEF5F33] text-[#494949] px-4 py-2 font-bold text-[1rem] flex gap-1 items-center rounded-3xl mb-4 w-[auto]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"        class="size-6">
@@ -224,7 +224,7 @@
                     </div>
 
                     <textarea placeholder="Write your message here" rows="4" class="w-full p-3  bg-[#FFFFFF] border border-gray-300 rounded-[32px] focus:outline-none focus:ring-2 focus:ring-lime-500 mb-4"></textarea>
-                    <button type="submit" class="flex gap-1 items-center justify-center w-full bg-lime-500 text-[#1C1C1C] text-[1.25rem] font-extrabold py-3 rounded-[32px]">
+                    <button type="submit" class="flex gap-1 items-center justify-center w-full bg-[#ABEF5F] text-[#1C1C1C] text-[1.25rem] font-extrabold py-3 rounded-[32px]">
                     Send Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-7 p-1 bg-[#1C1C1C] rounded-full">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>
@@ -234,8 +234,31 @@
         </section>
     </main>
 
-    <footer class="px-5 max-w-[1440px] mx-auto bg-[#1C1C1C]">
-        <div class="max-w-[778px] mx-auto"></div>
+    <footer class="max-w-[1440px] mx-auto bg-[#F4F4F4] pt-[20px] pb-[8px] lg:pt-[12px] lg:pb-[6px]">
+        <section class="px-5 max-w-[1440px] mx-auto bg-[#1C1C1C] py-[70px] lg:py-[100px]">
+            <div class="max-w-[778px] mx-auto text-center flex flex-col">
+                <div class="flex justify-center items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 p-1 bg-[#ABEF5F] rounded-full">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                    <h3 class="text-[#E9E9E9] text-[2rem] font-extrabold">Rinterio</h3>
+                </div>
+                <p class="text-[#737373] font-medium mt-4 mb-12">Whether you're searching for your next home or listing a property, Rinterio simplifies the process with user-friendly features and extensive listings.</p>
+                <div class="text-[#E9E9E9] flex flex-col lg:flex-row gap-9 justify-between mb-12">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                    <button class="flex text-center w-[210px] gap-2 bg-[#ABEF5F] rounded-[32px] px-5 py-[10px] text-xl font-extrabold">Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 p-1 bg-[#1C1C1C] text-[white] rounded-full">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                </button>
+                </div>
+            </div>
+        </section>
     </footer>    
 </body>
 </html>
